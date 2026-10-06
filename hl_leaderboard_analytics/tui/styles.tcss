@@ -1,0 +1,26 @@
+/* Hyperliquid Leaderboard Analytics — Textual stylesheet */
+
+Screen {
+    layout: vertical;
+    background: $surface;
+}
+
+Header {
+    background: $primary;
+    color: $text;
+}
+
+#tabs { height: 1fr; }
+TabPane { padding: 0 1; }
+
+.pane-title {
+    text-style: bold;
+    color: $accent;
+    margin: 0 0 1 0;
+}
+
+BoardTable { height: 1fr; margin-top: 1; }
+EquitySpark { height: 6; margin: 1 0; border: round $accent; }
+AssetBreakdown { height: auto; padding: 1 1; border: round $panel; }
+MoversStrip { height: auto; margin-top: 1; padding: 1 1; border: round $panel; }
+DataTable { background: $panel; height: auto; }
